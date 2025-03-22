@@ -33,7 +33,7 @@
 #include "wait.h"
 #include "snapshot.h"
 #include "suspend.h"
-#include "MINI/audio.h"
+#include "src/MINI/audio.h"
 
 
 /*----------------------------------------------------------------------*/
