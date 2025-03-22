@@ -188,6 +188,23 @@ struct retro_core_option_v2_definition option_defs_us[] = {
    },
 
    { 
+      "q88_sample_freq", 
+      "Audio Sample Frequency",
+      NULL, 
+      "Choose a Sample Frequency rate. Useful for games like Misty Blue",
+      NULL,
+      NULL,
+      {
+         { "48000",  "48000Hz" },
+         { "44100", "44100Hz" },
+         { "22050", "22050Hz" },
+         { "11025", "11025Hz" },
+         { NULL, NULL }
+      },
+      "44100"
+   }
+
+   { 
       "q88_screen_size", 
       "Screen size",
       NULL, 
