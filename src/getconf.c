@@ -33,6 +33,7 @@
 #include "wait.h"
 #include "snapshot.h"
 #include "suspend.h"
+#include "audio.h"
 
 
 /*----------------------------------------------------------------------*/
