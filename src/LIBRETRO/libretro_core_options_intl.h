@@ -77,6 +77,12 @@ extern "C" {
 #define Q88_SCREEN_SIZE_INFO_2_AR NULL
 #define OPTION_VAL_FULL_AR NULL
 #define OPTION_VAL_HALF_AR NULL
+#define Q88_SAMPLE_FREQ_LABEL_AR
+#define Q88_SAMPLE_FREQ_INFO_0_AR
+#define OPTION_VAL_48000_AR
+#define OPTION_VAL_44100_AR
+#define OPTION_VAL_22050_AR
+#define OPTION_VAL_11025_AR
 
 struct retro_core_option_v2_category option_cats_ar[] = {
    { NULL, NULL, NULL },
