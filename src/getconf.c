@@ -355,6 +355,11 @@ static const T_CONFIG_TABLE option_table[] =
   {  14, "tapesave",     X_STR,  &config_image.t[CSAVE], 0, 0, o_tapesave,     0        },
   {  15, "serialmouse",  X_FIX,  &use_siomouse,    TRUE,                  0,0, OPT_SAVE },
   {  15, "noserialmouse",X_FIX,  &use_siomouse,    FALSE,                 0,0, OPT_SAVE },
+  {  16, "48000",        X_FIX,  &samplefreq,      1, 65536,               0,0, OPT_SAVE },
+  {  16, "44100",        X_FIX,  &samplefreq,      1, 65536,             0,0, OPT_SAVE },
+  {  16, "22050",        X_FIX,  &samplefreq,      1, 65536,             0,0, OPT_SAVE },
+  {  16, "11025",        X_FIX,  &samplefreq,      1, 65536,              0,0, OPT_SAVE },
+
 
   /*  31〜60 : エミュレーション設定オプション */
 
