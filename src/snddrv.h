@@ -169,8 +169,8 @@ const char *xmame_version_fmgen(void);
 #define	xmame_cfg_set_use_fmgen(e)		(FALSE)
 #define	xmame_cfg_get_use_samples()		(FALSE)
 #define	xmame_cfg_set_use_samples(e)		(FALSE)
-#define	xmame_cfg_get_sample_freq()		(44100)
-#define	xmame_cfg_set_sample_freq(f)		(44100)
+#define	xmame_cfg_get_sample_freq()		(48000)
+#define	xmame_cfg_set_sample_freq(f)		(48000)
 
 #define	xmame_wavout_open(f)			(FALSE)
 #define	xmame_wavout_opened()			(FALSE)
