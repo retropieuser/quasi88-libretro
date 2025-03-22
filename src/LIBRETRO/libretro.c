@@ -353,6 +353,20 @@ static void init_variables(void)
       cpu_timing = atoi(var.value);
    }
 
+   var.key = "q88_sample_freq"; // Match the key from your core options
+
+   if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
+   {
+      if (strcmp(var.value, "48000") == 0)
+         samplefreq = 48000;
+      else if (strcmp(var.value, "44100") == 0)
+         samplefreq = 44100;
+      else if (strcmp(var.value, "22050") == 0)
+         samplefreq = 22050;
+      else if (strcmp(var.value, "11025") == 0)
+         samplefreq = 11025;
+   }
+
    var.key = "q88_cpu_clock";
    
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
