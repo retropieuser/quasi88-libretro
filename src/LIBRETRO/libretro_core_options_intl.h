@@ -211,6 +211,23 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
    },
 
    { 
+      "q88_sample_freq", 
+      Q88_SAMPLE_FREQ_LABEL_AR,
+      NULL, 
+      Q88_SAMPLE_FREQ_INFO_0_AR,
+      NULL,
+      NULL,
+      {
+         { "48000",  OPTION_VAL_48000_AR },
+         { "44100", OPTION_VAL_44100_AR },
+         { "22050", OPTION_VAL_22050_AR },
+         { "11025", OPTION_VAL_11025_AR },
+         { NULL, NULL }
+      },
+      "44100"
+   },
+
+   { 
       "q88_screen_size", 
       Q88_SCREEN_SIZE_LABEL_AR,
       NULL, 
